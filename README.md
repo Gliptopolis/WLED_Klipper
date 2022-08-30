@@ -27,7 +27,7 @@ It's a great explanation of how to make everything talk and work together to get
 No need for me to reinvent the wheel when his method works so well. 
 
 Assuming everything is now wired and programmed, it's time to start the integration with Mainsail and Klipper...
-https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/walking-with-iphone-x.jpg
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/walking-with-iphone-x.jpg)
 
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
