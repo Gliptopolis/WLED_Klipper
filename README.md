@@ -20,6 +20,8 @@ I have based my LED system on two control boards, the ESP 8266 Dev Board and the
  - A machine utilizing Mainsail / Klipper (Mainsail has built-in support for WLED)
 
 # Getting Started
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/walking-with-iphone-x.jpg)
+
 Let's get started! The first thing you need to do is go over to [Tyson Nichols' great site](https://tynick.com/blog/11-03-2019/getting-started-with-wled-on-esp8266/) and follow his tutorial on installing WLED on an ESP 8266.
 
 It's a great explanation of how to make everything talk and work together to get WLED up and running for your control system.
@@ -27,7 +29,7 @@ It's a great explanation of how to make everything talk and work together to get
 No need for me to reinvent the wheel when his method works so well. 
 
 Assuming everything is now wired and programmed, it's time to start the integration with Mainsail and Klipper...
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/walking-with-iphone-x.jpg)
+
 
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
