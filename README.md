@@ -59,5 +59,3 @@ That's it for Mainsail. Once you make the updates, save your new config file and
 
 ## Klipper
 In order to control the WLED, you will need to modify your printer.cfg file with macros to control the LEDs and also update your start print and end print macros.
-
-https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
