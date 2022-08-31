@@ -10,7 +10,7 @@ I have based my LED control system on two control boards, the ESP 8266 Dev Board
 
 
 ## Stuff You'll Need
-I'm not suggesting any of the following hardware, just offering up options. <soapbox> Make your own choices. </soapbox>
+I'm not suggesting any of the following hardware, just offering up options. <b> Make your own choices. </b>
  - Neopixels of your choice. Be sure they're individually addressable. 
  - Some wire to connect your LEDs to your controller. I use [this](https://www.amazon.com/StrivedayTM-3-core-Control-Shielded-Headphone/dp/B01LNH9ZYK/ref=sr_1_7?crid=2X5OBMKMEGJNO&keywords=24%2Bawg%2B3%2Bconductor%2Bwire&qid=1661885002&sprefix=24%2BAWG%2Caps%2C109&sr=8-7&th=1) or [this](https://www.amazon.com/C-able-Conductor-WS2811-WS2812b-Extension/dp/B082KNCKB3/ref=sr_1_1_sspa?crid=2X5OBMKMEGJNO&keywords=24+awg+3+conductor+wire&qid=1661885311&sprefix=24+AWG%2Caps%2C109&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN1I2TFhXMlhPUkZWJmVuY3J5cHRlZElkPUEwNzEzNTI1M1Y5M1NCMkZNMDEzMiZlbmNyeXB0ZWRBZElkPUEwMDczNDUwMU01NUQ5UEZHUzQzQyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=), but you should use what you're comfortable using. My advice is worth what you pay for it.
  - [ESP 8266 Dev Board](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V/ref=sr_1_3?crid=NYQ6QPIIUMM7&keywords=8266%2Bdev%2Bboard&qid=1661863407&sprefix=8266%2Bdev%2Bboard%2Caps%2C64&sr=8-3&th=1)
