@@ -49,7 +49,7 @@ Going to the Presets tab, you should see this screen:
 
 The first thing to do here is to click the Create preset button:
 
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED02.jpg))
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_C1.jpg)
 
 
 ## Mainsail
