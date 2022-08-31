@@ -188,6 +188,8 @@ Something to note: If you decide to wire your ESP module directly to 5V instead 
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/Max.%236343.jpg)
 
+Hopefully this helps you light up your project. If I can be of help, please reeach out to me over at discord, Glipski#1809. I'll try and answer questions. Just remember that I'm not very smart.
+
 ## Contributing
 
 If this helped you at all, please feel free to [Buy Me a Coffee, or Beer](https://www.buymeacoffee.com/gliptopoliB)
