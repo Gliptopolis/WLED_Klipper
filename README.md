@@ -83,6 +83,8 @@ chain_count: 42
 
 I use the http type because I'm utilizing the built-in wifi on the controller. You can find the address on the WLED app and input it in the address section
 
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/Config_C.jpg)
+
 I don't use the red, green, sections since I setup the WLED app to auto start with a saved profile, but you can do what suits you here. These values are based on a max of 1.
 
 The chain count is very important for your effects to work properly. The controller needs to know how many neopixels are on your string in order to work properly. Just count them and put the number here.
