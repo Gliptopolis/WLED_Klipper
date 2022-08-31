@@ -95,3 +95,75 @@ That's it for Mainsail. Once you make the updates, save your new config file and
 
 ## Klipper
 In order to control the WLED, you will need to modify your printer.cfg file with macros to control the LEDs and also update your start print and end print macros.
+
+```bash
+[gcode_macro START_PRINT]
+description: Start print procedure, use this in your Slicer.
+gcode:
+  CLEAR_PAUSE
+  SAVE_GCODE_STATE NAME=start_print_state
+  Breathe_On
+  # Metric values
+  G21
+  # Absolute positioning
+  G90 
+  # Set extruder to absolute mode
+  M82
+  # Home if needed
+  MAYBE_HOME
+  M117 Heating bed...
+  RESPOND MSG="Heating bed..."
+  led_heating
+  # Wait for bed to heat up
+  M190 S{params.BED_TEMP|default(printer.heater_bed.target, true) }
+  # Run the customizable "AFTER_HEATING_BED" macro.
+  _START_PRINT_AFTER_HEATING_BED
+  # Run the customizable "BED_MESH" macro
+  led_mesh
+  _START_PRINT_BED_MESH
+  # Start heating extruder
+  M104 S{params.EXTRUDER_TEMP|default(printer.extruder.target, true) }
+  # Run the customizable "PARK" macro
+  led_printing
+  _START_PRINT_PARK
+  # Wait for extruder to heat up
+  M117 Heating Extruder...
+  RESPOND MSG="Heating Extruder..."
+  led_heating
+  M109 S{params.EXTRUDER_TEMP|default(printer.extruder.target, true) }
+  # Run the customizable "AFTER_HEATING_EXTRUDER" macro.
+  _START_PRINT_AFTER_HEATING_EXTRUDER
+  M117 Printing...
+  RESPOND MSG="Printing..."
+  RESTORE_GCODE_STATE NAME=start_print_state
+  led_printing
+  # Set extrusion mode based on user configuration
+  {% if printer["gcode_macro RatOS"].relative_extrusion|lower == 'true' %}
+    M83
+  {% else %}
+    M82
+  {% endif %}
+  G92 E0
+
+[gcode_macro END_PRINT]
+description: End print procedure, use this in your Slicer.
+gcode:
+  SAVE_GCODE_STATE NAME=end_print_state
+  _END_PRINT_BEFORE_HEATERS_OFF
+  TURN_OFF_HEATERS
+  _END_PRINT_AFTER_HEATERS_OFF
+  _END_PRINT_PARK
+  led_off
+  Breathe_Off
+  # Clear skew profile if any was loaded.
+  {% if printer["gcode_macro RatOS"].skew_profile is defined %}
+    SET_SKEW CLEAR=1
+  {% endif %}
+  # Steppers off
+  M84
+  # Part cooling fan off
+  M107
+  M117 Done :)
+  RESPOND MSG="Done :)"
+  RESTORE_GCODE_STATE NAME=end_print_state
+```
