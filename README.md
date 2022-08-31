@@ -94,7 +94,9 @@ Repeat this process for every controller you install. I curently have 4 on my pr
 That's it for Mainsail. Once you make the updates, save your new config file and get ready to move over to Klipper for the magic...
 
 ## Klipper
-In order to control the WLED, you will need to modify your printer.cfg file with macros to control the LEDs and also update your start print and end print macros. Below are my Start and End Print macros including the calls for the macros specific to the WLED presets:
+In order to control the WLED, you will need to modify your printer.cfg file with macros to control the LEDs and also update your start print and end print macros. Also, if you're a RatOS user, please don't modify the config files. Copy your existing start and end print config sections and paste in to your printer.cfg file so you can always revrt back to the original version without a lot of hassle. Ask me how I know...
+
+Below are my Start and End Print macros including the calls for the macros specific to the WLED presets:
 
 ```bash
 [gcode_macro START_PRINT]
