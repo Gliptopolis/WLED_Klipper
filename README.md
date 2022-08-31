@@ -182,4 +182,6 @@ gcode:
   WLED_ON STRIP=chamber PRESET=3
 ```
 
-This macro assumes a couple things: first that your LED string is named "chamber" in the mainsail.conf file and that the preset you want to initialize is number 3 from your "Saved to ID" number in WLED.
+This macro assumes a couple things: first that your LED string is named "chamber" in the mainsail.conf file and that the preset you want to initialize is number 3 from your "Saved to ID" number in WLED. If you chose a different name in Mainsail when you added the WLED entry, then that's the name to use in the macro. Also, if you want to call a different preset, just use the corresponding number for that preset.
+
+
