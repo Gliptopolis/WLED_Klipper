@@ -45,7 +45,7 @@ Note:If you feel the need, you can go to the Segment tab and define effects for 
 
 Going to the Presets tab, you should see this screen:
 
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04.jpg))
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_B.jpg))
 
 The first thing to do here is to click the Create preset button:
 
