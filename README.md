@@ -61,6 +61,7 @@ Eventually you'll end up with something like this:
 
 These are my saved presets for the string of LEDs in the base of my printer.
 
+Now it's time to start incorporating these presets in Klipper. First you need to let Mainsail know you've got some LEDs attached that crave being controlled.
 
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
