@@ -16,7 +16,7 @@ I have based my LED system on two control boards, the ESP 8266 Dev Board and the
  - [Flashing Software](https://github.com/marcelstoer/nodemcu-pyflasher)
  - Simple hand tools for cutting and soldering. Crimping tools if you decide to use crimp terminals to connect to the board.
  - Cable to connect the board to your PC
- - A [case](https://www.thingiverse.com/thing:4816827) to house your controller for ease of mounting
+ - A [case](https://www.thingiverse.com/thing:4816827) to house your controller for ease of mounting. Note that if you use this for an ESP32, you should print at 102% in X axis only for a better fit.
  - A machine utilizing Mainsail / Klipper (Mainsail has built-in support for WLED)
 
 # Getting Started
