@@ -43,6 +43,11 @@ Note:If you feel the need, you can go to the Segment tab and define effects for 
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED02.jpg))
 
+Going to the Presets tab, you should see this screen:
+
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04.jpg))
+
+
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
 
