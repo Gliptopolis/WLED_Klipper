@@ -174,4 +174,10 @@ Here is a screenshot with the macros highlighted:
 
 Of course, you can't call macros that you haven't made yet, so let's work on those now...
 
+This is an example of one of the macros in my printer.cfg file to call the led_heating preset made in WLED:
 
+```bash
+[gcode_macro led_heating]
+gcode:
+  WLED_ON STRIP=Enclosure PRESET=3
+```
