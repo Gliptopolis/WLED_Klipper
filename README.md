@@ -1,4 +1,4 @@
-# LED Controls for Your Klipper/Mainsail Machine
+# LED Controls for Your Klipper/Moonraker Machine
 
 First, let's clear the air: I'm a dumbass and I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
 
@@ -30,7 +30,7 @@ It's a great explanation of how to make everything talk and work together to get
 
 No need for me to reinvent the wheel when his method works so well. 
 
-Assuming everything is now wired and programmed, it's time to start the integration with Mainsail and Klipper...
+Assuming everything is now wired and programmed, it's time to start the integration with Moonraker and Klipper...
 
 Now is the best time to go to the WLED app and create your custom profiles that will be called by Klipper later. When you open the app this is what you should see:
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED01.jpg))
@@ -65,10 +65,10 @@ These are my saved presets for the string of LEDs in the base of my printer. I w
 
 Now it's time to start incorporating these presets in Klipper. First you need to let Mainsail know you've got some LEDs attached that crave being controlled.
 
-## Mainsail
+## Moonraker
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
 
-First, we need to let Mainsail know that we have some LEDs that are being controlled by WLED. We need to edit the Moonraker.conf file with the following information:
+First, we need to let Moonraker know that we have some LEDs that are being controlled by WLED. We need to edit the Moonraker.conf file with the following information:
 
 ```bash
 [wled chamber]
@@ -93,7 +93,7 @@ The chain count is very important for your effects to work properly. The control
 
 Repeat this process for every controller you install. I curently have 4 on my printer controlling bed lights, upper work lights, an accent light on the back panel and a single on the hotend cover that changes colors with temps. I'm sure there's a way to utilize one controller for multiple strigns but no idea how to make that work. This method works for me.
 
-That's it for Mainsail. Once you make the updates, save your new config file and get ready to move over to Klipper for the magic...
+That's it for Moonraker. Once you make the updates, save your new config file and get ready to move over to Klipper for the magic...
 
 ## Klipper
 In order to control the WLED, you will need to modify your printer.cfg file with macros to control the LEDs and also update your start print and end print macros. Also, if you're a RatOS user, please don't modify the config files. Copy your existing start and end print config sections and paste in to your printer.cfg file so you can always revrt back to the original version without a lot of hassle. Ask me how I know...
