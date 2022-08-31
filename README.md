@@ -186,7 +186,7 @@ This macro assumes a couple things: first that your LED string is named "chamber
 
 Something to note: If you decide to wire your ESP module directly to 5V instead of using the wall wart, just wire the + and - from you chosen power source in parallel to your wiring to neopixels. Something like this: (HIGHLY professional drawing credit to Max.#6343 from Discord)
 
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/Max.#6343.jpg)
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/Max.%236343.jpg)
 
 ## Contributing
 
