@@ -51,6 +51,18 @@ The first thing to do here is to click the Create preset button:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_C1.jpg)
 
+You should then see this screen:
+
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_D.jpg)
+
+The most important section of this screen and process is the "Save to ID" number of the presets. It's how we will call the effects in the klipper macros so be sure and keep your numbering simple.I use a simple name to remind me what's what for the Nee preset section and make the Quick load label the same as the Save to ID number because I'm not smart and that's simple.
+
+Eventually you'll end up with something like this maybe:
+
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_P.jpg)
+
+These are my saved presets for the string of LEDs in the base of my printer.
+
 
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
