@@ -53,7 +53,7 @@ You should then see this screen:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_D.jpg)
 
-The most important section of this screen and process is the "Save to ID" number of the presets. It's how we will call the effects in the klipper macros so be sure and keep your numbering simple.I use a simple name to remind me what's what for the Nee preset section and make the Quick load label the same as the Save to ID number because I'm not smart and that's simple. It should also be noted that the preset will be created based on the effects and colros you've chosen on the other tabs. This just saves them. Simple.
+The most important section of this screen and process is the "Save to ID" number of the presets. It's how we will call the effects in the klipper macros so be sure and keep your numbering simple.I use a simple name to remind me what's what for the Nee preset section and make the Quick load label the same as the Save to ID number because I'm not smart and that's simple. It should also be noted that the preset will be created based on the effects and colors you've chosen on the other tabs. This just saves them. Simple.
 
 Eventually you'll end up with something like this:
 
@@ -174,10 +174,12 @@ Here is a screenshot with the macros highlighted:
 
 Of course, you can't call macros that you haven't made yet, so let's work on those now...
 
-This is an example of one of the macros in my printer.cfg file to call the led_heating preset made in WLED:
+This is an example of a macro to go in your printer.cfg file to call the "led_heating" preset made in WLED:
 
 ```bash
 [gcode_macro led_heating]
 gcode:
-  WLED_ON STRIP=Enclosure PRESET=3
+  WLED_ON STRIP=chamber PRESET=3
 ```
+
+This macro assumes a couple things: first that your LED string is named "chamber" in the mainsail.conf file and that the preset you want to initialize is number 3 from your "Saved to ID" number in WLED.
