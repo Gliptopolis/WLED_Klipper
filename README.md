@@ -1,14 +1,16 @@
 # LED Controls for Your Klipper/Mainsail Machine
 
-I spent quite a bit of my time trying to understand how I could add some simple neopixels to my RatRig printer 
+First, let's clear the air: I'm a dumbass and I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
 
-I can tell you that it wasn't easy. Lots of information about different things related to neopixels, but not much for how to implelent with my printer OS, especially at specific points during the printing cycle. I hope to clear that up for readers of this file and to make the process as as painless as possible.
+Anyway, moving on, I spent quite a bit of my time trying to understand how I could add some simple neopixels to my RatRig printer. It ended up actually being pretty simple but it sure didn't seem that way at the time. 
 
-I have based my LED system on two control boards, the ESP 8266 Dev Board and the ESP32. Either can be flashed with WLED and are great options for controlling your LEDs
+I can tell you that it wasn't easy. Lots of information about different things related to neopixels, but not much for how to implement with my printer OS, especially at specific points during the printing cycle. I hope to clear that up for readers of this file and to make the process as as painless as possible. I'm a RatOS user, which is a branch of Klipper, so it should work for most klipper machines.
+
+I have based my LED control system on two control boards, the ESP 8266 Dev Board and the ESP32. Either can be flashed with WLED and are great options for controlling your LEDs. I'm currently using both on my machines.
 
 
 ## Stuff You'll Need
-
+I'm not suggesting any of the following hardware, just offering up options. <soapbox> Make your own choices. </soapbox>
  - Neopixels of your choice. Be sure they're individually addressable. 
  - Some wire to connect your LEDs to your controller. I use [this](https://www.amazon.com/StrivedayTM-3-core-Control-Shielded-Headphone/dp/B01LNH9ZYK/ref=sr_1_7?crid=2X5OBMKMEGJNO&keywords=24%2Bawg%2B3%2Bconductor%2Bwire&qid=1661885002&sprefix=24%2BAWG%2Caps%2C109&sr=8-7&th=1) or [this](https://www.amazon.com/C-able-Conductor-WS2811-WS2812b-Extension/dp/B082KNCKB3/ref=sr_1_1_sspa?crid=2X5OBMKMEGJNO&keywords=24+awg+3+conductor+wire&qid=1661885311&sprefix=24+AWG%2Caps%2C109&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN1I2TFhXMlhPUkZWJmVuY3J5cHRlZElkPUEwNzEzNTI1M1Y5M1NCMkZNMDEzMiZlbmNyeXB0ZWRBZElkPUEwMDczNDUwMU01NUQ5UEZHUzQzQyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=), but you should use what you're comfortable using. My advice is worth what you pay for it.
  - [ESP 8266 Dev Board](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V/ref=sr_1_3?crid=NYQ6QPIIUMM7&keywords=8266%2Bdev%2Bboard&qid=1661863407&sprefix=8266%2Bdev%2Bboard%2Caps%2C64&sr=8-3&th=1)
