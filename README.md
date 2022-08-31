@@ -47,9 +47,7 @@ Going to the Presets tab, you should see this screen:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_B.jpg))
 
-The first thing to do here is to click the Create preset button:
-
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_C1.jpg)
+The first thing to do here is to click the Create preset button.
 
 You should then see this screen:
 
