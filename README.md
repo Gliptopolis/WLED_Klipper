@@ -30,8 +30,10 @@ No need for me to reinvent the wheel when his method works so well.
 
 Assuming everything is now wired and programmed, it's time to start the integration with Mainsail and Klipper...
 
-Now is the best time to go to the WLED app and create your custom profiles that will be called by Klipper later. when you open the app this what you'll see"
-![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED01.jpg)
+Now is the best time to go to the WLED app and create your custom profiles that will be called by Klipper later. when you open the app this is what you should see:
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED01%20(2).jpg))
+
+The first step will be to choose a color palette or a single color. That is from the home screen and you can choose up to 3 colors that can be blended or use a predefined palette. 
 
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
