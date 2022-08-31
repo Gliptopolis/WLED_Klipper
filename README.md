@@ -53,9 +53,9 @@ You should then see this screen:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_D.jpg)
 
-The most important section of this screen and process is the "Save to ID" number of the presets. It's how we will call the effects in the klipper macros so be sure and keep your numbering simple.I use a simple name to remind me what's what for the Nee preset section and make the Quick load label the same as the Save to ID number because I'm not smart and that's simple.
+The most important section of this screen and process is the "Save to ID" number of the presets. It's how we will call the effects in the klipper macros so be sure and keep your numbering simple.I use a simple name to remind me what's what for the Nee preset section and make the Quick load label the same as the Save to ID number because I'm not smart and that's simple. It should also be noted that the preset will be created based on the effects and colros you've chosen on the other tabs. This just saves them. Simple.
 
-Eventually you'll end up with something like this maybe:
+Eventually you'll end up with something like this:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_P.jpg)
 
