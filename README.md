@@ -37,6 +37,12 @@ The first step will be to choose a color palette or a single color. That is from
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED01%20(2).jpg))
 
+After you choose your custom colors or a predefined set, go to the next tab, for Effects. This is where you choose the animations for your LEDs. Play around with them and find something you like. Once you're happy with the effects, it's time to move over to save a custom profile. 
+
+Note:If you feel the need, you can go to the Segment tab and define effects for specific sections of your LED strings. I apply everything to the entire strings so I don't use this.
+
+![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED02.jpg))
+
 ## Mainsail
 I'm no expert, but the following is what has worked for me. If you have a better way to do it, then knock yourself out. 
 
