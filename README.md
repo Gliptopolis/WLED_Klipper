@@ -61,7 +61,7 @@ Eventually you'll end up with something like this:
 
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/WLED04_P.jpg)
 
-These are my saved presets for the string of LEDs in the base of my printer.
+These are my saved presets for the string of LEDs in the base of my printer. I would suggest that you take the time to make a preset for "On' and another for "Off" that you can use as well. My "On" is just white light for working and the "Off" is clearly no light at all. It comes in handy for the end print stuff later.
 
 Now it's time to start incorporating these presets in Klipper. First you need to let Mainsail know you've got some LEDs attached that crave being controlled.
 
