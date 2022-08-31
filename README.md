@@ -194,6 +194,13 @@ Something to note: If you decide to wire your ESP module directly to 5V instead 
 
 Hopefully this helps you light up your project. If I can be of help, please reeach out to me over at discord, Glipski#1809. I'll try and answer questions. Just remember that I'm not very smart.
 
+An example:
+
+
+https://user-images.githubusercontent.com/76233721/187796502-af01a490-b974-4ade-8cb8-97e9b4fa2e5e.mov
+
+
+
 ## Contributing
 
 If this helped you at all, please feel free to [Buy Me a Coffee, or Beer](https://www.buymeacoffee.com/gliptopoliB)
