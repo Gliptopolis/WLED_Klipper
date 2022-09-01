@@ -24,7 +24,7 @@ I'm not suggesting any of the following hardware, just offering up options. <b><
 # Getting Started
 ![alt text](https://github.com/Gliptopolis/WLED_Klipper/blob/main/images/walking-with-iphone-x.jpg)
 
-Let's get started! The first thing you need to do is go over to [Tyson Nichols' great site](https://tynick.com/blog/11-03-2019/getting-started-with-wled-on-esp8266/) and follow his tutorial on installing WLED on an ESP 8266.
+Let's get started! The first thing you need to do is go over to [Tyson Nichols' great site](https://tynick.com/blog/11-03-2019/getting-started-with-wled-on-esp8266/) and follow his tutorial on installing WLED on an ESP 8266. Just in case, I added a PDF version of his page in the files section.
 
 It's a great explanation of how to make everything talk and work together to get WLED up and running for your control system.
 
