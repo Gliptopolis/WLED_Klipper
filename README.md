@@ -18,7 +18,7 @@ I'm not suggesting any of the following hardware, just offering up options. <b><
  - [Flashing Software](https://github.com/marcelstoer/nodemcu-pyflasher)
  - Simple hand tools for cutting and soldering. Crimping tools if you decide to use crimp terminals to connect to the board.
  - Cable to connect the board to your PC
- - A [case](https://www.thingiverse.com/thing:4816827) to house your controller for ease of mounting. Note that if you use this for an ESP32, you should print X axis at 102% for a better fit. Here's a local link to the same file: [Case](https://github.com/Gliptopolis/WLED_Klipper/tree/main/4816827_NodeMCU__ESP_8266__Case/files)
+ - A [case](https://www.thingiverse.com/thing:4816827) to house your controller for ease of mounting. Note that if you use this for an ESP32, you should print X axis at 102% for a better fit. Here's a local link to the same files: [Case](https://github.com/Gliptopolis/WLED_Klipper/tree/main/4816827_NodeMCU__ESP_8266__Case/files)
  - A machine utilizing Mainsail / Klipper (Mainsail has built-in support for WLED)
 
 # Getting Started
