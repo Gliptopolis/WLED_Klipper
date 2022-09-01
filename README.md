@@ -1,4 +1,4 @@
-# LED Controls for Your Klipper/Moonraker Machine
+# LED Controls for Your Klipper/Moonraker Machine Using WLED
 
 First, let's clear the air: I'm a dummy and I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
 
