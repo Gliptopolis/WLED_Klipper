@@ -178,8 +178,6 @@ Here is a screenshot with the macros highlighted:
 
 Of course, you can't call macros that you haven't made yet, so let's work on those now...
 
-This is an example of a macro to go in your printer.cfg file to call the "led_heating" preset made in WLED:
-
 First, you'll need to add this in your printer.cfg file to activate the LEDs once you make the necessary macros:
 ```bash
 [gcode_macro WLED_ON]
