@@ -180,6 +180,20 @@ Of course, you can't call macros that you haven't made yet, so let's work on tho
 
 This is an example of a macro to go in your printer.cfg file to call the "led_heating" preset made in WLED:
 
+First, you'll need to add this in your printer.cfg file to activate the LEDs once you make the necessary macros:
+```bash
+[gcode_macro WLED_ON]
+description: Turn WLED strip on using optional preset and resets led colors
+gcode:
+  {% set strip = params.STRIP|default("chamber")|string %}
+  {% set preset = params.PRESET|default(4)|int %}
+
+  {action_call_remote_method("set_wled_state",
+                             strip=strip,
+                             state=True,
+                             preset=preset)}
+```
+Then as an example for the macros required to call each of your presets, use the following format:
 ```bash
 [gcode_macro led_heating]
 gcode:
