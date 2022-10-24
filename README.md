@@ -1,6 +1,6 @@
 # LED Controls for Your Klipper/Moonraker Machine Using WLED
 
-First, let's clear the air: I'm a dummy and I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
+First, let's clear the air: I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
 
 Anyway, moving on, I spent quite a bit of my time trying to understand how I could add some simple neopixels to my RatRig printer. It ended up actually being pretty simple but it sure didn't seem that way at the time. 
 
@@ -28,7 +28,7 @@ Let's get started! The first thing you need to do is go over to [Tyson Nichols' 
 
 It's a great explanation of how to make everything talk and work together to get WLED up and running for your control system.
 
-No need for me to reinvent the wheel when his method works so well. 
+No need for me to reinvent the wheel when his method works so well. I would however suggest that if you're using an ESP32 instead of the 8266 dev board, you go to here and install WLED. It's much simpler. [Web Installer](https://install.wled.me/)
 
 Assuming everything is now wired and programmed, it's time to start the integration with Moonraker and Klipper...
 
