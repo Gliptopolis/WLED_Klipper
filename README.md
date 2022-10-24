@@ -1,6 +1,6 @@
 # LED Controls for Your Klipper/Moonraker Machine Using WLED
 
-First, let's clear the air: I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
+When reading this document, please keep in mind that I figured this out through trial and error. Your results may vary and all of this information is purely for entertainment purposes. My free opinions are worth to you exactly what you're paying for them. Of course, if you pay, it's probably worth a little less than what you paid.
 
 Anyway, moving on, I spent quite a bit of my time trying to understand how I could add some simple neopixels to my RatRig printer. It ended up actually being pretty simple but it sure didn't seem that way at the time. 
 
